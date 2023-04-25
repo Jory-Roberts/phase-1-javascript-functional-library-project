@@ -2,12 +2,12 @@
   "stats": {
     "suites": 11,
     "tests": 27,
-    "passes": 9,
+    "passes": 11,
     "pending": 0,
-    "failures": 18,
-    "start": "2023-04-25T07:46:22.474Z",
-    "end": "2023-04-25T07:46:22.781Z",
-    "duration": 307
+    "failures": 16,
+    "start": "2023-04-25T08:13:08.773Z",
+    "end": "2023-04-25T08:13:09.147Z",
+    "duration": 374
   },
   "tests": [
     {
@@ -36,27 +36,21 @@
       "fullTitle": "index.js myMap successfully returns a correctly populated array",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myMap is not defined\n    at Context.<anonymous> (test/indexTest.js:45:25)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myMap is not defined"
-      }
+      "err": {}
     },
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js myMap does not modify the original array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "successfully returns a correctly populated array from modified object values",
       "fullTitle": "index.js myMap successfully returns a correctly populated array from modified object values",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myMap is not defined\n    at Context.<anonymous> (test/indexTest.js:56:25)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myMap is not defined"
-      }
+      "err": {}
     },
     {
       "title": "does not modify the original object",
@@ -78,7 +72,7 @@
     {
       "title": "returns the correct reduced value when not passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when not passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: myReduce is not defined\n    at Context.<anonymous> (test/indexTest.js:76:29)\n    at process.processImmediate (node:internal/timers:476:21)",
@@ -105,7 +99,7 @@
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myReduce does not modify the original object",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -232,7 +226,7 @@
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myKeys does not modify the original object",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -257,26 +251,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "successfully returns a correctly populated array",
-      "fullTitle": "index.js myMap successfully returns a correctly populated array",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myMap is not defined\n    at Context.<anonymous> (test/indexTest.js:45:25)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myMap is not defined"
-      }
-    },
-    {
-      "title": "successfully returns a correctly populated array from modified object values",
-      "fullTitle": "index.js myMap successfully returns a correctly populated array from modified object values",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: myMap is not defined\n    at Context.<anonymous> (test/indexTest.js:56:25)\n    at process.processImmediate (node:internal/timers:476:21)",
-        "message": "myMap is not defined"
-      }
-    },
-    {
       "title": "returns the correct reduced value when passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when passed an initial value",
       "duration": 0,
@@ -289,7 +263,7 @@
     {
       "title": "returns the correct reduced value when not passed an initial value",
       "fullTitle": "index.js myReduce returns the correct reduced value when not passed an initial value",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: myReduce is not defined\n    at Context.<anonymous> (test/indexTest.js:76:29)\n    at process.processImmediate (node:internal/timers:476:21)",
@@ -460,9 +434,23 @@
       "err": {}
     },
     {
+      "title": "successfully returns a correctly populated array",
+      "fullTitle": "index.js myMap successfully returns a correctly populated array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "does not modify the original array",
       "fullTitle": "index.js myMap does not modify the original array",
-      "duration": 0,
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "successfully returns a correctly populated array from modified object values",
+      "fullTitle": "index.js myMap successfully returns a correctly populated array from modified object values",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -483,14 +471,14 @@
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myReduce does not modify the original object",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myKeys does not modify the original object",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
