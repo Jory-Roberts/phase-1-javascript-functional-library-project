@@ -98,7 +98,7 @@ function myLast(array, n) {
 function myKeys(object) {
     const newArray = [];
 
-    for (const key in object) {
+    for (let key in object) {
         newArray.push(key);
     }
     return newArray;
@@ -107,7 +107,7 @@ function myKeys(object) {
 function myValues(object) {
     const newArray = [];
 
-    for (const key in object) {
+    for (let key in object) {
         newArray.push(object[key]);
     }
     return newArray;
